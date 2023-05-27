@@ -1,0 +1,76 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Main Colours in website*/
+  --colour-dark: #070a13;
+  --colour-light_grey: #f1f5f9;
+  --colour-dark_shade_grey: #94a3b8;
+  --colour-even_darker_shade_grey: #475569;
+  --colour-light-shade-black: #1e293b;
+  --colour-dark-reddish: #e11d48;
+  --colour-purple: #4f46e5;
+
+  /* Sizes used in Website*/
+  --size-xxs: 8px;
+  --size-xs: 12px;
+  --size-sm: 14px;
+  --size-base: 16px;
+  --size-lg: 18px;
+  --size-xl: 20px;
+  --size-2xl: 24px;
+  --size-3xl: 30px;
+  --size-4xl: 36px;
+  --size-5xl: 48px;
+  --size-6xl: 60px;
+  --size-7xl: 72px;
+  --size-8xl: 96px;
+  --size-9xl: 128px;
+  --size-10xl: 160px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.lightMode {
+  --colour-dark: #f1f5f9;
+  --colour-light_grey: #070a13;
+  --colour-dark_shade_grey: #1e293b;
+  --colour-even_darker_shade_grey: #1e293b;
+  --colour-light-shade-black: #1e293b;
+}
+body {
+  background-color: var(--colour-light_grey);
+  color: var(--colour-light_grey);
+  margin: 0; /* 1 */
+  font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji"; /* 2 */
+}
+/* @media (prefers-color-scheme: "bi-brightness-high-fill") {
+  .profile-pic {
+    filter: invert(1);
+  }
+} */
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* max
+@media (min-width: 2560px)
+laptop
+@media (min-width: 1440px)
+laptop
+@media (min-width: 1024px) */
+/* mobile L */
+/* @media (min-width: 425px){} */
+/* mobile M */
+/* @media (min-width: 375px){} */
+/* mobile S */
+/* @media (min-width: 320px){} */
+/* tablet */
+/* @media (min-width: 768px){} */
