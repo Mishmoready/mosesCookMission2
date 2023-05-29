@@ -43,8 +43,8 @@ html {
   --colour-light-shade-black: #1e293b;
 }
 body {
-  background-color: var(--colour-light_grey);
-  color: var(--colour-light_grey);
+  /* background-color: var(--colour-light_grey);
+  color: var(--colour-light_grey); */
   margin: 0; /* 1 */
   font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji"; /* 2 */

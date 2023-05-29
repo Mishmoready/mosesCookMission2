@@ -3,23 +3,29 @@
 .contact-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin-left: 400px;
   margin-right: 400px;
   margin-bottom: 200px;
 }
 .contact-title {
   font-size: 1.5rem;
+  display: grid;
+  place-items: center;
   color: var(--colour-light_grey);
   text-transform: capitalize;
 }
 
-.contact-description {
+.contact-description p {
   font-size: 16px;
   color: var(--colour-even_darker_shade_grey);
-  max-width: 60ch;
 }
-
+.contact-details {
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
 .contact-submit-button {
   font-size: 16px;
   display: inline-block;
@@ -34,8 +40,4 @@
   box-shadow: 0 10px 20px #e11d4880, 0 6px 6px #e11d4880,
     0 0 100px -10px #e11d48;
   transition: transform 0.3s, box-shadow 0.3s;
-}
-
-#contact .darkMode {
-  color: var(--colour-light_grey);
 }
