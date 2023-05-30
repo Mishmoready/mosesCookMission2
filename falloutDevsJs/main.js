@@ -1,4 +1,4 @@
-"strict mode";
+"use strict";
 const toggle = document.getElementsByClassName("darkModeButton");
 const body = document.querySelector("body");
 const image = document.getElementById("myImage");
