@@ -1,3 +1,4 @@
+"strict mode";
 const toggle = document.getElementsByClassName("darkModeButton");
 const body = document.querySelector("body");
 const image = document.getElementById("myImage");
@@ -230,3 +231,8 @@ btnmash.addEventListener("click", function () {
 function getRandomNumber() {
   return Math.floor(Math.random() * colors.length);
 }
+for (let i = 0; i <= colors.length; i++) {
+  if (i > 50) break;
+  colors.push(i);
+}
+console.log(colors);
