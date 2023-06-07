@@ -9,11 +9,11 @@ darkModeButton.addEventListener("click", function () {
     image.classList.toggle;
     body.style.background = "white";
     body.style.color = "black";
-    body.style.transition = "1s";
+    body.style.transition = "2s";
   } else {
     body.style.background = "black";
     body.style.color = "white";
-    body.style.transition = "1s";
+    body.style.transition = "2s";
   }
 });
 
