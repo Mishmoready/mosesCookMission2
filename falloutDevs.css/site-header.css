@@ -1,0 +1,40 @@
+@import "main.css";
+
+.flex-wrapflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 9999;
+}
+
+.top-left {
+  display: flex;
+  font-size: 12px;
+  list-style-type: none;
+  color: inherit;
+}
+
+.top-left li {
+  margin: 0 4px;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.bi-brightness-high-fill {
+  font-size: var(--size-2xl);
+  color: black;
+  cursor: pointer;
+  position: relative;
+  top: -8px;
+}
+
+.bi-moon {
+  font-size: var(--size-2xl);
+  cursor: pointer;
+  position: relative;
+  top: -8px;
+}

@@ -1,0 +1,41 @@
+@import "main.css";
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 200px;
+}
+.contact-title {
+  font-size: 1.5rem;
+  color: var(--colour-light_grey);
+  text-transform: capitalize;
+}
+
+.contact-description {
+  font-size: 16px;
+  color: var(--colour-even_darker_shade_grey);
+  max-width: 60ch;
+}
+
+.contact-submit-button {
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 450;
+  border: none;
+  text-decoration: none;
+  letter-spacing: -0.025em;
+  background-color: #e11d4880;
+  color: var(--colour-light_grey);
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px #e11d4880, 0 6px 6px #e11d4880,
+    0 0 100px -10px #e11d48;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#contact .darkMode {
+  color: var(--colour-light_grey);
+}

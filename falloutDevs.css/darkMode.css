@@ -1,0 +1,26 @@
+@import "main.css";
+
+.dark-mode {
+  background-color: var(--colour-dark);
+}
+
+.dark-mode {
+  --colour-dark: #f1f5f9;
+  --colour-light_grey: #070a13;
+  --colour-dark_shade_grey: #94a3b8;
+  --colour-even_darker_shade_grey: #475569;
+  --colour-light-shade-black: #1e293b;
+}
+
+.dark-mode h1 {
+  color: var(--colour-dark);
+}
+
+.dark-mode .profile-pic {
+  color: var(--colour-dark);
+  background-color: var(--colour-dark);
+}
+
+.bi-moon h2 h3 h4 {
+  color: var(--colour-light_grey);
+}
