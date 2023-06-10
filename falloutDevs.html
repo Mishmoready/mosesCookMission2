@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="falloutDevs.css/about.css" />
     <link rel="stylesheet" href="falloutDevs.css/contact.css" />
     <link rel="stylesheet" href="falloutDevs.css/darkMode.css" />
+    <link rel="stylesheet" href="falloutDevs.css/mash.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -41,8 +42,17 @@
           <li>
             <a class="header-link" href="#about">About</a>
           </li>
-          <li>Email</li>
-          <li>Support</li>
+          <li>
+            <a
+              class="email-link"
+              href="email"
+              action="mailto:moses@missionreadyhq.com"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a class="mash-link" href="#mash">Mash</a>
+          </li>
           <li>
             <a class="header-link" href="#contact">Contact</a>
           </li>
@@ -68,7 +78,12 @@
     <!--Main Hero-->
     <main>
       <section class="main-center">
-        <img src="Images/ThumbsUpFallOut.png" class="profile-pic" />
+        <img
+          src="Images/ThumbsUpFallOut.png"
+          class="profile-pic"
+          alt="image"
+          id="myImage"
+        />
         <h3 class="subtitle">Moses Cook Presents</h3>
         <h2>
           Aspiring
@@ -85,7 +100,7 @@
       <section id="about" class="about-main-container">
         <div id="about" class="about-container-section">
           <div class="left-side">
-            <h4 class="about-title">About</h4>
+            <h4 class="color" alt="about-title">About</h4>
             <p class="about-detail">
               Welcome to my website! My name is Fallout Man, and I'm thrilled
               that you're here.
@@ -130,16 +145,32 @@
           </div>
         </div>
       </section>
+      <section id="mashsection" class="mash-container">
+        <nav>
+          <div class="mash-nav-center">
+            <h4>Color Mash</h4>
+          </div>
+        </nav>
+        <div class="mashdivContainer">
+          <h3>background color: <span class="color"></span></h3>
+          <button class="btn btn-hero" id="btnmash">Click Me</button>
+          <br />
+        </div>
+      </section>
       <!-- Contact -->
-      <section id="contact" class="contact-container">
-        <h2 class="contact-title">Get In Contact</h2>
+      <section id="contact" class="contact-container" alt="color">
+        <h2 class="color">Get In Contact:</h2>
         <p class="contact-description">
           Whether you are starting a project, have business inquiries or just
           want to say hi, my inbox is always open so feel free to reach out and
           I will get back to you as soon as possible.
         </p>
 
-        <form class="contact-details" action="mailto:moses@missionreadyhq.com">
+        <form
+          id="color"
+          class="contact-details"
+          action="mailto:moses@missionreadyhq.com"
+        >
           <label class="contact-name">Name</label>
           <input
             placeholder="Enter your name"
@@ -147,13 +178,10 @@
             type="text"
             name="name"
           />
-          <br />
 
           <label class="contact-email">Email &#58; </label>
           <input type="email" name="email" />
-          <br />
-
-          <label>Message</label><br />
+          <label>Message:</label>
           <textarea></textarea><br />
 
           <input class="contact-submit-button" type="submit" value="Submit!" />
